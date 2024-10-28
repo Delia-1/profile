@@ -31,9 +31,7 @@ body {
   letter-spacing: 2px;
 }
 
-.font-orange {
-  color: rgb(166, 0, 255);
-}
+strong {color: rgb(164, 9, 53);}
 
 .container {
   margin: 30px;
@@ -44,7 +42,7 @@ body {
   padding: 20px;
   width: 600px;
   background-color: white;
-  border: 2px, solid, #abaaab;
+  border: 2px, solid, rgb(164, 9, 53);
   margin: 30px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -57,21 +55,21 @@ body {
   border-radius: 5px;
   color: white;
   margin: 20px;
-
-}
-
-a {
   text-decoration: none;
+  transition: 0.8s;
+
 }
+
+#btn-green:hover {
+  text-decoration: underline;
+  color: rgb(164, 9, 53);
+}
+
 
 #ma-photo{
   border-radius: 50%;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: #FFA24C;
-}
 
 .list-inline {
   list-style: none;
@@ -83,10 +81,12 @@ a:hover {
 
    li i {
     font-size: 50px;
-    color: rgb(200, 200, 200)
+    color: rgb(200, 200, 200);
+    transition: 0.8s;
    }
 
    li i:hover {
 
-    color: red;
+    color: rgb(164, 9, 53);
+
   }
