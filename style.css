@@ -1,0 +1,92 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  width: max-content;
+  margin: 30px auto;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  color: #10375C;
+  font-family: "kalam";
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.font-nunito {
+  font-family: "Nunito";
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.font-orange {
+  color: rgb(166, 0, 255);
+}
+
+.container {
+  margin: 30px;
+  text-align: center;
+  padding: 50px auto; }
+
+.white-card {
+  padding: 20px;
+  width: 600px;
+  background-color: white;
+  border: 2px, solid, #abaaab;
+  margin: 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  background-color: #DFF2EB
+}
+
+#btn-green {
+  border: 1px solid #15B392;
+  background-color: #15B392;
+  border-radius: 5px;
+  color: white;
+  margin: 20px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#ma-photo{
+  border-radius: 50%;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #FFA24C;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;}
+
+ li {
+    display:inline-block;
+   }
+
+   li i {
+    font-size: 50px;
+    color: rgb(200, 200, 200)
+   }
+
+   li i:hover {
+
+    color: red;
+  }
